@@ -7,7 +7,8 @@ This exercise is a part of the Odin Project fundamentals course and is meant to 
 # To-do
 
 Although this project is complete, there are some things that can still be improved:
-- [] responsive navigation bar on mobile
+
+- [ ] responsive navigation bar on mobile
 
 # Screenshots
 Full Screen             |  Mobile
