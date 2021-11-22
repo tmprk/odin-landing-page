@@ -29,9 +29,8 @@ body {
     align-items: center;
     color: #E5E7EB;
     padding: 16px;
-
-    align-self: center;
-    min-width: 924px;
+    /* align-self: center; */
+    /* min-width: 924px; */
 }
 
 .list {
@@ -42,6 +41,7 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    flex-shrink: 0;
 }
 
 .list {
@@ -61,7 +61,8 @@ a {
     align-self: center;
     gap: 24px;
     flex: 1;
-    width: 924px;
+    padding: 0rem 2rem;
+    max-width: 924px;
 }
 
 .hero-left {
@@ -72,9 +73,13 @@ a {
 }
 
 .content img {
-    width: auto;
-    height: 300px;
+    width: 400px;
+    max-width: 50%;
+    height: auto;
+    /* width: auto; */
+    /* height: 300px; */
     border-radius: 24px;
+    flex-shrink: 1;
 }
 
 .hero-main {
@@ -243,5 +248,14 @@ a {
     .hero-left {
         width: 400px;
         margin-bottom: 36px;
+    }
+
+    .content img {
+        max-width: 100%;
+        margin-top: 16px;
+    }
+
+    .list a {
+        font-size: 2.5vw;
     }
 }
